@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Indie+Flower&family=Josefin+Sans&family=Mali&family=Oleo+Script+Swash+Caps&display=swap');
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mali', cursive;
+  }
+
+  body, .container, .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    background: #0a9396;
+    min-height: 100vh;
+    padding: 0 10px;
+  }
+
+  .container {
+    background-color: white;
+    padding: 30px 30px 38px;
+    width: 400px;
+    flex-direction: column;
+    border-radius: 15%;
+    box-shadow: 7px 3px 10px 0px rgba(0, 55, 255, 0.317); 
+  }
+
+  .container img {
+    min-width: 120px;
+  }
+
+  .container h1 {
+    font-size: 35px;
+    margin-top: 19px;
+    font-weight:800;
+    cursor: default;
+  }
+
+  .container .content {
+    width: 100%;
+    margin-top: 23px;
+    justify-content: space-between;
+  }
+
+  .column {
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    width: calc(100% / 3 - 5px);
+}
+  
+
+  .column select {
+    outline: none;
+    border: none;
+    background: none;
+    height: 53px;
+    width: 100%;
+    font-size: 19px;
+    border-radius: 11px;
+    cursor: pointer;
+  }
+
+  .container button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #80ed99;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .disable {
+    opacity: 0.6;
+    pointer-events: none;
+  }
