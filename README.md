@@ -1,5 +1,5 @@
 # Alarm-Clock
-An alarm application on JavaScript <br> 
+<strong> An alarm application on JavaScript <strong> <hr> 
 User can set a alarm, when alarm time has came out alarm starts to ringing. <br>
 User can pause the alarm by clicking the button and set a new alarm. 
 
